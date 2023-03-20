@@ -5,23 +5,12 @@ We propose an efficient data-centric approach Dataflow Code Propagation (DCP) to
 
 #### Revised Figure 11
 
-In this part, we revise the Figure 11 shown in Appendix.
-
 <div>
     <center>	
-    <img src="images/TensorLib_latency_log.png"
+    <img src="images/TensorLib_perf_log.png"
          style="zoom:80%"/>
     <br>
-    Layer-wise performance of DCP optimized dataflow and example dataflow provided by Tensorlib in the latency of MobileNet-v2
-    </center>
-</div>
-
-<div>
-    <center>	
-    <img src="images/TensorLib_energy_log.png"
-         style="zoom:80%"/>
-    <br>
-    Layer-wise performance of DCP optimized dataflow and example dataflow provided by Tensorlib in the energy consumption of MobileNet-v2
+    Layer-wise performance of DCP optimized dataflow and example dataflow provided by Tensorlib in latency and energy consumption of MobileNet-v2
     </center>
 </div>
 
@@ -35,3 +24,5 @@ In this part, we revise the Figure 11 shown in Appendix.
     Visualization of the change of HW metrics in the process of propagation
     </center>
 </div>
+
+From the figure above, we can see that although compensation brings a certain loss in HW metrics, both the HW metrics before and after compensation have an apparent trend of decreasing.
