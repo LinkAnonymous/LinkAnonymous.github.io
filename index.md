@@ -10,7 +10,7 @@ We propose an efficient data-centric approach Dataflow Code Propagation (DCP) to
     <img src="images/TensorLib_perf_log.png"
          style="zoom:80%"/>
     <br>
-    Layer-wise performance of DCP optimized dataflow and example dataflow provided by Tensorlib in latency and energy consumption of MobileNet-v2
+    Figure 1. Layer-wise performance of DCP optimized dataflow and example dataflow provided by Tensorlib in latency and energy consumption of MobileNet-v2
     </center>
 </div>
 
@@ -21,7 +21,7 @@ We propose an efficient data-centric approach Dataflow Code Propagation (DCP) to
     <img src="images/HW_metric_Prop.png"
          style="zoom:100%"/>
     <br>
-    Visualization of the change of HW metrics in the process of propagation
+    Figure 2. Visualization of the change of HW metrics in the process of propagation
     </center>
 </div>
 
